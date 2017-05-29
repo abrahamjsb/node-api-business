@@ -1,0 +1,20 @@
+{
+  "name": "first-node-project",
+  "version": "1.0.0",
+  "description": "First node project for educational purposes",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Abraham Sánchez",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.15.2",
+    "mongoose": "^4.10.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
