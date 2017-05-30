@@ -11,7 +11,10 @@ const BusinessSchema = Schema({
   phone: String,
   website: String,
   businessType: String,
-  description: String
+  description: String,
+  imgUrl:  {type: String,
+    default: 'https://developers.google.com/maps/documentation/static-maps/images/error-image-generic.png'
+  }
 })
 
 module.exports = mongoose.model('business', BusinessSchema)

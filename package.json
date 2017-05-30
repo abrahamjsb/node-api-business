@@ -11,7 +11,11 @@
   "author": "Abraham Sánchez",
   "license": "MIT",
   "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "crypto": "0.0.3",
     "express": "^4.15.2",
+    "jwt-simple": "^0.5.1",
+    "moment": "^2.18.1",
     "mongoose": "^4.10.3"
   },
   "devDependencies": {
